@@ -14,7 +14,7 @@ export default {
    components: {
       'gmap-custom-marker': GmapCustomMarker
   },
-  name: "ViewRentalData",
+  name: "map",
   data() {
     return {
       marker: {

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router';
-import ViewRental from '../components/ViewRentalData';
-import VideoRental from '../components/VideoRental';
+import main from '../components/main';
+import map from '../components/map';
 
 Vue.use(Router);
 
@@ -10,11 +10,11 @@ export default new Router({
     base: process.env.BASE_URL,
     routes: [{
             path: '/',
-            component: VideoRental
+            component: main
         },
         {
             path: '/view',
-            component: ViewRental
+            component: map
         }
     ]
 });
